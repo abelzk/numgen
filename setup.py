@@ -3,6 +3,7 @@ import re
 
 with open("README.md", "r") as f:
     long_description = f.read()
+    
 
 def get_version():
     with open("mylib/__init__.py") as f:
@@ -12,6 +13,7 @@ def get_version():
             return match.group(1)
         else:
             raise RuntimeError("Could not find version in __init__.py")
+
 
 setup(
     name="numgen",
