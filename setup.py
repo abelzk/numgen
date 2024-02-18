@@ -16,8 +16,8 @@ def get_version():
 
 
 setup(
-    name="numgen",
-    version="0.0.1",
+    name="numix",
+    version="0.1",
     description="random number generator with a twist",
     author="Abel Zecharias",
     package_dir={"": "numgen"},

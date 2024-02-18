@@ -1,3 +1,3 @@
-from numgen import hello
+from numix import hello
 
 hello()
