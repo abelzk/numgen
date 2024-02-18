@@ -20,7 +20,7 @@ setup(
     version="0.1",
     description="random number generator with a twist",
     author="Abel Zecharias",
-    package_dir={"": "numgen"},
+    package_dir={"": "numix"},
     packages=find_packages(where="numgen"),
     long_description=long_description,
     long_description_content_type="text/markdown",
